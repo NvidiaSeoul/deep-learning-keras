@@ -1,0 +1,8 @@
+# deep-learning-keras — actual imports across src/
+tensorflow>=2.10        # tf.keras: Sequential, Dense/Conv2D/MaxPooling2D/Dropout/Flatten/BatchNormalization/UpSampling2D, callbacks, datasets, load_model, to_categorical
+numpy                   # 배열 연산, argmax, column_stack, unique
+pandas                  # CSV 로드 및 전처리 (Titanic, Fish)
+matplotlib              # 학습 곡선 / 이미지 시각화 (savefig)
+scikit-learn            # train_test_split, StandardScaler, LabelEncoder, load_iris
+joblib                  # 스케일러(.pkl) 저장/로드 (Fish)
+opencv-python           # 외부 이미지 리사이즈·색반전 (Fashion-MNIST 실이미지 예측)
